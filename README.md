@@ -5,6 +5,9 @@
   <img src="assets/s01-light.svg" width="100%" alt="01 — On display">
 </picture>
 
+**[sculpture-hall](https://github.com/retrocodes12/sculpture-hall)** — a 3D renderer with no GPU: matrices, near-plane clipping, z-buffer, perspective-correct texturing, written longhand. [Walk the hall](https://retrocodes12.github.io/sculpture-hall/), or drop your own .obj onto the plinth.<br>
+<sub>2026 · ZERO DEPENDENCIES · ZERO WEBGL · 36 TESTS</sub>
+
 **[NebulaStreams V2](https://github.com/retrocodes12/NebulaStreams-V2)** — hybrid streaming server: torrent streaming, HTTP proxying, and a disk-backed cache.<br>
 <sub>2026 · JAVASCRIPT · ★ 7</sub>
 
