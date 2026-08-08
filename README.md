@@ -25,7 +25,24 @@
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/s02-dark.svg">
-  <img src="assets/s02-light.svg" width="100%" alt="02 — In storage">
+  <img src="assets/s02-light.svg" width="100%" alt="02 — New acquisitions">
+</picture>
+
+**[graph-graffiti](https://github.com/retrocodes12/graph-graffiti)** — draw text and sprites on a contribution graph in backdated empty commits. The studio behind the arcade wing, cleaned up and handed to visitors.<br>
+<sub>2026 · NODE · ONE FILE · ZERO DEPENDENCIES</sub>
+
+**[arcade-cabinet](https://github.com/retrocodes12/arcade-cabinet)** — Space Invaders in the terminal. The invaders on [the graph](https://github.com/retrocodes12/arcade-wing) don't move; these do.<br>
+<sub>2026 · NODE · 385 LINES · ONE COLOR SPENT ON BULLETS</sub>
+
+**[print-room](https://github.com/retrocodes12/print-room)** — a poster press. Every [visit](https://retrocodes12.github.io/print-room/) prints a numbered edition from the collection's identity; the number in the URL is the poster.<br>
+<sub>2026 · ONE HTML FILE · EDITION OF ONE</sub>
+
+**[the-vault](https://github.com/retrocodes12/the-vault)** — the storage basement, navigable entirely in markdown. The receiving books run to 27. This page says 26. Someone should look into that.<br>
+<sub>2026 · NO CODE · 17 ROOMS · ONE MISSING EXHIBIT</sub>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/s03-dark.svg">
+  <img src="assets/s03-light.svg" width="100%" alt="03 — In storage">
 </picture>
 
 Pieces not currently on display: an emergency-line triage engine, an app that locks a phone against its owner's worse instincts, an invoice tool on its second payment processor, an intent radar for a noisy social network, and a reorder planner for shopkeepers.
@@ -33,8 +50,8 @@ Pieces not currently on display: an emergency-line triage engine, an app that lo
 <sub>STORAGE IS NOT ABANDONMENT · PIECES ROTATE</sub>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/s03-dark.svg">
-  <img src="assets/s03-light.svg" width="100%" alt="03 — Visitor information">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/s04-dark.svg">
+  <img src="assets/s04-light.svg" width="100%" alt="04 — Visitor information">
 </picture>
 
 The collection is maintained by one person. Every exhibit accepts issues and pull requests. New pieces appear without announcement.
