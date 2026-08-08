@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 260" width="880" height="260" role="img" aria-label="RETROCODES — collected works, 26 pieces">
+  <rect width="880" height="260" fill="#141414"/>
+  <rect x="0.5" y="0.5" width="879" height="259" fill="none" stroke="#2A2A2A" stroke-width="1"/>
+  <circle cx="760" cy="130" r="150" fill="#C8102E"/>
+  <text x="44" y="118" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="104" font-weight="800" letter-spacing="-2" fill="#EDEAE4">RETRO</text>
+  <text x="44" y="228" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="104" font-weight="800" letter-spacing="-2" fill="#EDEAE4">CODES</text>
+  <text x="46" y="30" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="10" letter-spacing="1.8" fill="#8A8781">COLLECTED WORKS · 26 PIECES</text>
+  <text x="836" y="30" text-anchor="end" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="10" letter-spacing="1.8" fill="#EDEAE4">GITHUB / RETROCODES12</text>
+</svg>
