@@ -5,6 +5,9 @@
   <img src="assets/s01-light.svg" width="100%" alt="01 — On display">
 </picture>
 
+**[machine-room](https://github.com/retrocodes12/machine-room)** — a Game Boy emulator: SM83, scanline PPU, four-voice sound, in 1,164 lines with no dependencies. Passes Blargg's CPU tests and renders dmg-acid2 pixel-perfect. [Insert a cartridge](https://retrocodes12.github.io/machine-room/).<br>
+<sub>2026 · ZERO DEPENDENCIES · HARDWARE-TEST VERIFIED</sub>
+
 **[sculpture-hall](https://github.com/retrocodes12/sculpture-hall)** — a 3D renderer with no GPU: matrices, near-plane clipping, z-buffer, perspective-correct texturing, written longhand. [Walk the hall](https://retrocodes12.github.io/sculpture-hall/), or drop your own .obj onto the plinth.<br>
 <sub>2026 · ZERO DEPENDENCIES · ZERO WEBGL · 36 TESTS</sub>
 
