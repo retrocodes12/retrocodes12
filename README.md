@@ -64,8 +64,4 @@ The realm is kept by one person. Every holding accepts issues and pull requests;
 
 <sub>THE GATES ARE ALWAYS OPEN · NO TOLL</sub>
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/s5-dark.svg"><img src="assets/s5-light.svg" width="100%" alt="V — The long night"></picture>
-
-<a href="https://github.com/retrocodes12/terminus"><img src="https://raw.githubusercontent.com/retrocodes12/terminus/main/countdown.svg" width="100%" alt="terminus — a countdown to 2030 that redraws itself daily; one light goes out every week"></a>
-
-<p align="right"><sub>CATALOGUE REV. 2026-09 · THE GATES ARE ALWAYS OPEN</sub></p>
+<p align="right"><sub>CATALOGUE REV. 2026-09</sub></p>

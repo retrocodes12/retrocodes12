@@ -1,7 +1,7 @@
 // The profile README over the iron assets. `node tools/build.mjs` regenerates assets/ and README.md.
 import { writeFileSync, mkdirSync } from 'node:fs';
 import { resolve } from 'node:path';
-import { great, council, storage, storageSub, raven, ravenSub, TERMINUS } from './data.mjs';
+import { great, council, storage, storageSub, raven, ravenSub } from './data.mjs';
 import { hero, section, strip } from './assets.mjs';
 
 const OUT = resolve(import.meta.dirname, '..'); mkdirSync(`${OUT}/assets`, { recursive: true });
@@ -43,11 +43,7 @@ ${raven}
 
 <sub>${ravenSub}</sub>
 
-${S(5, 'V — The long night')}
-
-<a href="https://github.com/retrocodes12/terminus"><img src="${TERMINUS}" width="100%" alt="terminus — a countdown to 2030 that redraws itself daily; one light goes out every week"></a>
-
-<p align="right"><sub>CATALOGUE REV. 2026-09 · THE GATES ARE ALWAYS OPEN</sub></p>
+<p align="right"><sub>CATALOGUE REV. 2026-09</sub></p>
 `;
 
 export const structures = {
@@ -66,7 +62,7 @@ ${tail}` },
 
 export function buildAssets(style = 'fan') {
   write('assets/hero.svg', hero(style));
-  const secs = [[1, 'THE GREAT HOUSES', 'FLAGSHIPS, EACH WITH A LIVE KEEP'], [2, 'THE SMALL COUNCIL', 'TOOLS AND INSTRUMENTS'], [3, 'BEYOND THE WALL', 'IN STORAGE'], [4, 'SEND A RAVEN', 'ISSUES AND PULL REQUESTS'], [5, 'THE LONG NIGHT', 'ONE LIGHT GOES OUT EVERY WEEK']];
+  const secs = [[1, 'THE GREAT HOUSES', 'FLAGSHIPS, EACH WITH A LIVE KEEP'], [2, 'THE SMALL COUNCIL', 'TOOLS AND INSTRUMENTS'], [3, 'BEYOND THE WALL', 'IN STORAGE'], [4, 'SEND A RAVEN', 'ISSUES AND PULL REQUESTS']];
   for (const [n, t, s] of secs) { write(`assets/s${n}-dark.svg`, section(n, t, s, 'dark')); write(`assets/s${n}-light.svg`, section(n, t, s, 'light')); }
   for (const it of [...great, ...council]) { write(`assets/strip-${it.key}-dark.svg`, strip(it, 'dark')); write(`assets/strip-${it.key}-light.svg`, strip(it, 'light')); }
 }

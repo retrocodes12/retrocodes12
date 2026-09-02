@@ -33,4 +33,3 @@ export const storage = 'North of the Wall, in storage: an emergency-line triage 
 export const storageSub = 'STORAGE IS NOT EXILE · PIECES RETURN';
 export const raven = 'The realm is kept by one person. Every holding accepts issues and pull requests; that is how a raven is sent. New pieces appear without banners.';
 export const ravenSub = 'THE GATES ARE ALWAYS OPEN · NO TOLL';
-export const TERMINUS = 'https://raw.githubusercontent.com/retrocodes12/terminus/main/countdown.svg';
