@@ -1,0 +1,4 @@
+.frames/
+tools/.frames/
+.claude-flow/
+node_modules/

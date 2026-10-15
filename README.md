@@ -1,67 +1,50 @@
-<img src="assets/hero.svg" width="100%" alt="RETROCODES — the holdings of retrocodes, 26 pieces. Words of the house: shipped whole.">
+<a href="https://github.com/retrocodes12/ultracraft"><picture><source srcset="assets/hero.webp" type="image/webp"><img src="assets/hero.jpg" width="100%" alt="RETROCODES. 26 pieces. Worlds, players and simulations. A live frame from Ultracraft: sunrise over the sea."></picture></a>
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/s1-dark.svg"><img src="assets/s1-light.svg" width="100%" alt="I — The Great Houses"></picture>
+Software built end to end by one person: a game engine that renders in a browser tab, a streaming player on seven platforms, a simulation where species split on their own. Each one below runs; click a picture for the source.
 
-<a href="https://github.com/retrocodes12/machine-room"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/strip-machine-room-dark.svg"><img src="assets/strip-machine-room-light.svg" width="100%" alt="machine-room"></picture></a><br>
-A Game Boy emulator: SM83, scanline PPU, four-voice sound, in 1,164 lines with no dependencies. Passes Blargg's CPU tests and renders dmg-acid2 pixel-perfect. [Insert a cartridge](https://retrocodes12.github.io/machine-room/).<br>
-<sub>2026 · ZERO DEPENDENCIES · HARDWARE-TEST VERIFIED</sub>
+<a href="https://github.com/retrocodes12/ultracraft"><img src="assets/plate-ultracraft.jpg" width="100%" alt="Ultracraft: voxel engine"></a>
 
-<a href="https://github.com/retrocodes12/sculpture-hall"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/strip-sculpture-hall-dark.svg"><img src="assets/strip-sculpture-hall-light.svg" width="100%" alt="sculpture-hall"></picture></a><br>
-A 3D renderer with no GPU: matrices, near-plane clipping, z-buffer, perspective-correct texturing, written longhand. [Walk the hall](https://retrocodes12.github.io/sculpture-hall/), or drop your own .obj onto the plinth.<br>
-<sub>2026 · ZERO DEPENDENCIES · ZERO WEBGL · 36 TESTS</sub>
+A Minecraft-style sandbox in one HTML file, pushed toward real light: procedural PBR textures, a physical sky, cascaded shadows, reflective water. [Play it in the browser](https://retrocodes12.github.io/ultracraft/).<br>
+<sub>THREE.JS · NO TEXTURE FILES · 4,600 LINES · [SOURCE](https://github.com/retrocodes12/ultracraft)</sub>
 
-<a href="https://github.com/retrocodes12/NebulaStreams-V2"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/strip-nebulastreams-dark.svg"><img src="assets/strip-nebulastreams-light.svg" width="100%" alt="NebulaStreams V2"></picture></a><br>
-Hybrid streaming server: torrent streaming, HTTP proxying, and a disk-backed cache.<br>
-<sub>2026 · JAVASCRIPT · ★ 8</sub>
+<br>
 
-<a href="https://github.com/retrocodes12/nebula-player"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/strip-nebula-player-dark.svg"><img src="assets/strip-nebula-player-light.svg" width="100%" alt="Nebula Player"></picture></a><br>
-One streaming player, four rooms: [web](https://retrocodes12.github.io/nebula-player/), [Android](https://github.com/retrocodes12/nebula-android), [desktop](https://github.com/retrocodes12/nebula-desktop), and a shared [watch-party](https://github.com/retrocodes12/nebula-party).<br>
-<sub>2026 · TYPESCRIPT + KOTLIN · ★ 2</sub>
+<a href="https://github.com/retrocodes12/nebula-player"><img src="assets/plate-nebula.jpg" width="100%" alt="Nebula Player: streaming player"></a>
 
-<a href="https://github.com/retrocodes12/trustpacket"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/strip-trustpacket-dark.svg"><img src="assets/strip-trustpacket-light.svg" width="100%" alt="TrustPacket"></picture></a><br>
-Three-way trust reconciliation for law-firm client accounts. Two exports in, a signed packet out.<br>
-<sub>2026 · NODE + SQLITE · NO EXTERNAL SERVICES</sub>
+A free player for the TV, the desktop and the phone. Add a source and it becomes a library with artwork, episode lists, subtitles, and your place kept across screens. One shared player for the web and LG webOS, plus native apps for [Android and Android TV](https://github.com/retrocodes12/nebula-android), [Windows](https://github.com/retrocodes12/nebula-desktop) and [macOS](https://github.com/retrocodes12/nebula-mac). [play.rifflehq.in](https://play.rifflehq.in)<br>
+<sub>TYPESCRIPT · KOTLIN · SWIFT · ★ 12 ACROSS FOUR REPOS · [SOURCE](https://github.com/retrocodes12/nebula-player)</sub>
 
-<a href="https://github.com/retrocodes12/flowwatch"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/strip-flowwatch-dark.svg"><img src="assets/strip-flowwatch-light.svg" width="100%" alt="FlowWatch"></picture></a><br>
-Cross-client monitoring for n8n and Make automations, with white-label monthly reports ([site](https://retrocodes12.github.io/flowwatch-site/)).<br>
-<sub>2026 · JAVASCRIPT · ZERO DEPENDENCIES</sub>
+<br>
 
-<a href="https://github.com/retrocodes12/the-last-samurai-film"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/strip-last-samurai-dark.svg"><img src="assets/strip-last-samurai-light.svg" width="100%" alt="The Last Samurai"></picture></a><br>
-A wordless cinematic scroll film in six movements. No dialogue, no chrome; the scrollbar is the projector.<br>
-<sub>2026 · HTML · ONE PAGE</sub>
+<a href="https://github.com/retrocodes12/evolution-sim"><img src="assets/plate-evolution-sim.jpg" width="100%" alt="Evolution Sim: simulation"></a>
 
-<a href="https://github.com/retrocodes12/monochrome-android"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/strip-monochrome-dark.svg"><img src="assets/strip-monochrome-light.svg" width="100%" alt="Monochrome for Android"></picture></a><br>
-A Spotify-style Monochrome client packaged as an Android app.<br>
-<sub>2026 · JAVASCRIPT · ★ 2</sub>
+Creatures with energy budgets and heritable genes, and nothing scripted past that. Predator–prey arms races, genealogies and new species emerge on their own; rewind, branch and compare timelines. [Run it](https://retrocodes12.github.io/evolution-sim/).<br>
+<sub>VANILLA JS · ZERO DEPENDENCIES · MULTI-SEED TESTS · [SOURCE](https://github.com/retrocodes12/evolution-sim)</sub>
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/s2-dark.svg"><img src="assets/s2-light.svg" width="100%" alt="II — The Small Council"></picture>
+<br>
 
-<a href="https://github.com/retrocodes12/graph-graffiti"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/strip-graph-graffiti-dark.svg"><img src="assets/strip-graph-graffiti-light.svg" width="100%" alt="graph-graffiti"></picture></a><br>
-Draw text and sprites on a contribution graph in backdated empty commits. The studio behind the arcade wing, cleaned up and handed to visitors.<br>
-<sub>2026 · NODE · ONE FILE · ZERO DEPENDENCIES</sub>
+<a href="https://github.com/retrocodes12/terminus"><img src="assets/plate-terminus.jpg" width="100%" alt="Terminus: a clock for the decade"></a>
 
-<a href="https://github.com/retrocodes12/arcade-cabinet"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/strip-arcade-cabinet-dark.svg"><img src="assets/strip-arcade-cabinet-light.svg" width="100%" alt="arcade-cabinet"></picture></a><br>
-Space Invaders in the terminal. The invaders on [the graph](https://github.com/retrocodes12/arcade-wing) don't move; these do.<br>
-<sub>2026 · NODE · 385 LINES · ONE COLOR SPENT ON BULLETS</sub>
+The 522 weeks of the 2020s as a wall of lights. One goes out every week until 00:00 UTC, 1 January 2030, and a daily Action commits the count. [Watch it happen](https://retrocodes12.github.io/terminus/).<br>
+<sub>ONE PAGE · ONE ACTION · 522 LIGHTS · [SOURCE](https://github.com/retrocodes12/terminus)</sub>
 
-<a href="https://github.com/retrocodes12/print-room"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/strip-print-room-dark.svg"><img src="assets/strip-print-room-light.svg" width="100%" alt="print-room"></picture></a><br>
-A poster press. Every [visit](https://retrocodes12.github.io/print-room/) prints a numbered edition from the collection's identity; the number in the URL is the poster.<br>
-<sub>2026 · ONE HTML FILE · EDITION OF ONE</sub>
+<br>
 
-<a href="https://github.com/retrocodes12/the-vault"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/strip-the-vault-dark.svg"><img src="assets/strip-the-vault-light.svg" width="100%" alt="the-vault"></picture></a><br>
-The storage basement, navigable entirely in markdown. The receiving books run to 27. This page says 26. Someone should look into that.<br>
-<sub>2026 · NO CODE · 17 ROOMS · ONE MISSING EXHIBIT</sub>
+<a href="https://github.com/retrocodes12/print-room"><img src="assets/plate-print-room.jpg" width="100%" alt="Print Room: poster press"></a>
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/s3-dark.svg"><img src="assets/s3-light.svg" width="100%" alt="III — Beyond the Wall"></picture>
+Every [visit](https://retrocodes12.github.io/print-room/) prints a numbered poster from the collection's identity. The edition number in the URL is the poster: same number, same print, forever.<br>
+<sub>ONE HTML FILE · NO BUILD · NO LIBRARIES · [SOURCE](https://github.com/retrocodes12/print-room)</sub>
 
-North of the Wall, in storage: an emergency-line triage engine, an app that locks a phone against its owner's worse instincts, an invoice tool on its second payment processor, an intent radar for a noisy social network, and a reorder planner for shopkeepers.
+<br>
 
-<sub>STORAGE IS NOT EXILE · PIECES RETURN</sub>
+### Also on the shelf
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/s4-dark.svg"><img src="assets/s4-light.svg" width="100%" alt="IV — Send a raven"></picture>
+- **[graph-graffiti](https://github.com/retrocodes12/graph-graffiti)** · Draws text and sprites on a contribution graph with backdated empty commits. [arcade-wing](https://github.com/retrocodes12/arcade-wing) is five invaders drawn that way, in 2,100 commits.
+- **[context-relay](https://github.com/retrocodes12/context-relay)** · A Claude Code mod that hands your work to a fresh session before a long context wears the model down, and keeps going there.
+- **[rigor](https://github.com/retrocodes12/rigor)** · A fact-checking protocol for AI chatbots, with explicit countermeasures for the usual reasoning biases.
+- **[sleeve](https://github.com/retrocodes12/sleeve)** · A Spotify-shaped music player, painted orange. [Open it](https://retrocodes12.github.io/sleeve/).
+- **[NebulaStreams](https://github.com/retrocodes12/NebulaStreams)** · A Node streaming server: torrent streaming, HTTP proxying, and a disk-backed cache.
 
-The realm is kept by one person. Every holding accepts issues and pull requests; that is how a raven is sent. New pieces appear without banners.
+<br>
 
-<sub>THE GATES ARE ALWAYS OPEN · NO TOLL</sub>
-
-<p align="right"><sub>CATALOGUE REV. 2026-09</sub></p>
+<sub>KEPT BY ONE PERSON · ISSUES AND PULL REQUESTS OPEN ON EVERY PUBLIC REPO · REV. 2026-10</sub>

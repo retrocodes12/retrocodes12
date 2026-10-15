@@ -1,0 +1,6 @@
+@font-face { font-family: "Shoulders"; src: url("../fonts/BigShouldersDisplay.ttf"); font-weight: 100 900; }
+@font-face { font-family: "Plex"; src: url("../fonts/IBMPlexMono-Regular.ttf"); font-weight: 400; }
+@font-face { font-family: "Plex"; src: url("../fonts/IBMPlexMono-Medium.ttf"); font-weight: 500; }
+:root { --bone: #efe9dd; --dim: rgba(239, 233, 221, 0.66); --amber: #ffb000; --iron: #0c0c0b; }
+* { margin: 0; box-sizing: border-box; }
+.mono { font: 500 21px/1.35 "Plex", monospace; letter-spacing: 0.16em; text-transform: uppercase; }
